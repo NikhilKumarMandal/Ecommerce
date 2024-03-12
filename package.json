@@ -2,13 +2,20 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "Ecommerce backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
   },
   "keywords": [
     "backend"
   ],
   "author": "Nikhil Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
